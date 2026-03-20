@@ -1,0 +1,147 @@
+/* フォント設定 */
+body {
+  font-family: "Noto Serif JP", serif;
+  color: #333;
+  background: #fff;
+  margin: 0;
+  line-height: 1.8;
+}
+
+/* 色 */
+:root {
+  --blue: #4169E1; /* ロイヤルブルー */
+}
+
+/* Header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo-small {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 5rem;
+}
+
+.hero-logo {
+  width: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subcopy {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Buttons */
+.btn {
+  background: var(--blue);
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.btn-outline {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  color: var(--blue);
+  margin-bottom: 1rem;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 260px;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+/* Contact Form */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #f5f5f5;
+  margin-top: 3rem;
+}
+
+.footer-logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+}
